@@ -1,0 +1,30 @@
+{
+  "name": "document-cookie",
+  "version": "0.1.0",
+  "description": "Client component to set cookies",
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "prepare": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manvalls/document-cookie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manvalls/document-cookie/issues"
+  },
+  "homepage": "https://github.com/manvalls/document-cookie#readme",
+  "peerDependencies": {
+    "react": "next"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

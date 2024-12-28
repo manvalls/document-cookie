@@ -42,7 +42,10 @@ The `DocumentCookie` component accepts the following props:
 - `name` (string, required): The name of the cookie.
 - `value` (string, optional): The value of the cookie.
 - `expires` (Date, optional): The expiration date of the cookie.
+- `maxAge` (number, optional): The maximum age of the cookie in seconds.
+- `partitioned` (boolean, optional): Whether the cookie is partitioned.
 - `path` (string, optional): The path where the cookie is valid.
+- `sameSite` ("strict" | "lax" | "none", optional): The SameSite attribute of the cookie.
 - `domain` (string, optional): The domain where the cookie is valid.
 - `secure` (boolean, optional): Whether the cookie should only be sent over secure protocols.
 

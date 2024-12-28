@@ -42,9 +42,6 @@ const DocumentCookie = ({
     }
 
     document.cookie = cookie;
-    return () => {
-      document.cookie = `${escapedName}=; expires=Thu, 01 Jan 1970 00:00:00 GMT`;
-    };
   }, [name, value, expires, path, domain, secure]);
 
   return null;
